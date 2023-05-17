@@ -14,10 +14,10 @@ export class Activity {
   @Column({ nullable : true})
   contract_address!: string;
 
-  @Column({ nullable : true})
+  @Column({ type: 'double', nullable:true })
   token_index!: number;
 
-  @Column({ nullable : true})
+  @Column({ type: 'double', nullable:true })
   listing_price!: number;
 
   @Column({ nullable : true})
